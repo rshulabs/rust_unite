@@ -28,11 +28,11 @@ fn t2(e:&Event) {
     }
 }
 fn main() {
-    let u = User{
-        name:"rshulabs".to_string(),
-        id:22
-    };
-    ut(&u);
+    // let u = User{
+    //     name:"rshulabs".to_string(),
+    //     id:22
+    // };
+    // ut(&u);
     let e1 = Event::Join(("join".into(),22));
     let e2 = Event::Leave(("leave".into(),30));
     t1(&e1);
